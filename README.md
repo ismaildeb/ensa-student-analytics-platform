@@ -12,9 +12,9 @@ Plateforme data end-to-end (Python) pour analyser les performances des etudiants
 
 ## Demo (Power BI + captures)
 
-- Power BI (PBIX): `assets/SmartStudentAnalytics_ENSA.pbix` (a ajouter)
-- Export PDF: `assets/SmartStudentAnalytics_ENSA.pdf` (a ajouter)
-- Captures: `assets/screenshots/` (a ajouter)
+- Power BI (PBIX): `assets/SmartStudentAnalytics_ENSA.pbix`
+- Export PDF: `assets/SmartStudentAnalytics_ENSA.pdf` 
+- Captures: `assets/screenshots/` 
 
 ## Modules (exemples ENSA)
 
@@ -55,7 +55,6 @@ pip install -r requirements.txt
 
 ## Execution (ETL -> DB -> ML -> App)
 
-0) (Optionnel mais recommande) Regenerer un dataset "ENSA-style" (>= 200 lignes):
 
 ```powershell
 python generate_data.py
