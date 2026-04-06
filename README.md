@@ -119,14 +119,3 @@ Importer de preference les exports FR (evite '.' vs ','):
 
 Guide pas-a-pas + exemples DAX: `POWERBI_GUIDE.md`.
 
-Notes (pour partager le PBIX sur GitHub):
-- Mets ton fichier `.pbix` dans `assets/` pour qu'il soit versionne.
-- Si le PBIX demande de mettre a jour les chemins de source, va dans:
-  Transform Data -> Data source settings -> Change source vers les CSV dans `powerbi/`.
-
-## Docker (optionnel)
-
-```bash
-docker build -t student-analytics .
-docker run -p 8050:8050 student-analytics
-```
