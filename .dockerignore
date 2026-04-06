@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+.git/
+*.pyc
+.qoder/
+data/*.csv
+powerbi/*.csv
+models/*.joblib
+models/*.json
+models/*.csv
+students.db*
+*.pbix

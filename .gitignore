@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local IDE / tooling
+.qoder/
+.DS_Store
+
+# Generated data & exports (recreated by scripts)
+data/*.csv
+powerbi/*.csv
+
+# Trained models / metadata (recreated by train_model.py)
+models/*.joblib
+models/*.json
+models/*.csv
+
+# Local databases
+students.db
+students.db-*
+students.db-journal
+
+# Power BI
+*.pbix
