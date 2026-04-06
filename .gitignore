@@ -25,3 +25,13 @@ students.db-journal
 
 # Power BI
 *.pbix
+!assets/*.pbix
+!assets/**/*.pbix
+
+# Reports / screenshots
+!assets/*.pdf
+!assets/**/*.pdf
+!assets/*.png
+!assets/**/*.png
+!assets/*.jpg
+!assets/**/*.jpg

@@ -10,6 +10,12 @@ Plateforme data end-to-end (Python) pour analyser les performances des etudiants
 - App : Dash (Python)
 - BI : Power BI (dataset propre + predictions)
 
+## Demo (Power BI + captures)
+
+- Power BI (PBIX): `assets/SmartStudentAnalytics_ENSA.pbix` (a ajouter)
+- Export PDF: `assets/SmartStudentAnalytics_ENSA.pdf` (a ajouter)
+- Captures: `assets/screenshots/` (a ajouter)
+
 ## Modules (exemples ENSA)
 
 - `analyse`, `algebre`, `physique`, `chimie`
@@ -36,6 +42,7 @@ requirements.txt
 POWERBI_GUIDE.md
 Dockerfile
 README.md
+assets/                        (pbix/pdf/captures)
 ```
 
 ## Installation
@@ -112,6 +119,11 @@ Importer de preference les exports FR (evite '.' vs ','):
 - `powerbi/clean_with_predictions_fr.csv` (historique)
 
 Guide pas-a-pas + exemples DAX: `POWERBI_GUIDE.md`.
+
+Notes (pour partager le PBIX sur GitHub):
+- Mets ton fichier `.pbix` dans `assets/` pour qu'il soit versionne.
+- Si le PBIX demande de mettre a jour les chemins de source, va dans:
+  Transform Data -> Data source settings -> Change source vers les CSV dans `powerbi/`.
 
 ## Docker (optionnel)
 
